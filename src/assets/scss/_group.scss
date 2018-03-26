@@ -1,0 +1,36 @@
+.group-view{
+    .col-img {
+        .cell{line-height: 1;}
+    }
+    .groupDialog {
+        .avatar-uploader {
+            position: absolute;
+            top: 0;
+            left: 20px;
+            vertical-align: auto;
+        }
+        .el-form {
+            margin-left: 90px;
+            margin-right: 20px;
+        }
+    }
+    .userDialog {
+        .el-dialog__body {
+            padding-top: 0;
+        }
+        .el-table {
+            i {cursor: pointer;}
+        }
+        .btn-box {
+            padding: 10px;
+            text-align: right;
+        }
+    }
+}
+.adduserDialog {
+    .el-dialog__body {
+        padding-top: 0;
+        max-height: 500px;
+        overflow: auto;
+    }
+}

@@ -1,0 +1,130 @@
+.search-form {
+    padding: 18px 0 0;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #eee;
+    .el-input {
+        width: 180px;
+    }
+}
+.table-box {
+    .btn-box {
+        float: right;
+        margin: 10px 0px;
+    }
+}
+.avatar-uploader {
+    display: inline-block;
+    .el-upload {
+        border: 1px dashed #d9d9d9;
+        border-radius: 3px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        &:hover {
+            border-color: #409EFF;
+        }
+    }
+    .avatar-uploader-icon {
+        font-size: 28px;
+        color: #8c939d;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+    }
+    .avatar {
+        width: 70px;
+        height: 70px;
+        display: block;
+    }
+} 
+.editor {
+    min-height: 100px;
+    .ql-editor p {
+        margin: 10px 0;
+    }
+}
+.el-table {
+    text-align: center;
+    th {
+        text-align: center !important;
+        padding: 8px 0;
+        background-color: #f4f6f8;
+    }
+    td {
+        padding: 8px 0;
+        .el-button--text {
+            padding: 5px 0;
+        }
+    }
+    .table-copy-btn {
+        position: absolute;
+        bottom: 1px;
+        right: 1px;
+        border: 5px solid transparent;
+        border-right-color: #ed7f1e;
+        border-bottom-color: #ed7f1e;
+        cursor: pointer;
+    }
+}
+#copyInput {
+    height: 1px;
+    position: absolute;
+    left: -1000px;
+    z-index: -1000;
+}
+.el-table .cell, .el-table th>div {
+    padding: 0 5px;
+}
+.el-dialog {//对话框默认样式
+    min-width: 300px;
+    border-radius: 4px;
+    overflow: hidden;
+    .el-dialog__header {
+        padding: 10px 0 8px 15px;
+        background-color: #10A0E8;
+        .el-dialog__title {
+            font-size: 16px;
+            color: white;
+        }
+        .el-icon-close {
+            position: relative;
+            bottom: 8px;
+            font-size: 20px;
+            color: white;
+            font-weight: 700;
+        }
+    }
+    .el-dialog__body {
+        padding: 20px 0 0;
+        line-height: 1;
+        .el-form-item {
+            margin: 0 0 10px;
+        }
+        .form-col2 {
+            padding-right: 20px;
+            .el-form-item {
+                vertical-align: top;
+                display: inline-block;
+                width: 49%;
+            }
+        }
+    }
+    .el-dialog__footer {
+        padding: 10px 0 20px;
+        text-align: center;
+    }
+}
+.el-pagination {
+    min-width: 600px;
+    margin: 15px 0;
+    text-align: right;
+    .el-pagination__editor.el-input {
+        width: 50px;
+    }
+    .el-select .el-input {
+        width: 100px;    
+    }
+}

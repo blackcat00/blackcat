@@ -1,0 +1,27 @@
+html,body {height: 100%;}   
+body {
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}   
+* {box-sizing: border-box;} 
+ul,ol {margin: 0;padding-left: 0;list-style: none;} 
+p {margin: 0;}  
+a {text-decoration: none;color: #20a0ff;}   
+a:hover {color: #4db3ff;}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+#app {
+    position: relative;
+    color: #444;
+    height: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,75 @@
+.login-view {
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    .shadow-box {
+        position: relative;
+        top: 25%;
+        width: 612px;
+        height: 1px;
+        margin: 0 auto;
+        .bottom-shadow {
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            height: 114px;
+            width: 612px;
+        }
+    }
+    .login-box {
+        position: relative;
+        top: 25%;
+        width: 350px;
+        margin: 0 auto;
+        padding: 1px;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0 15px #3d6cfc;
+        z-index: 1;
+        h2 {
+            margin: 25px 0;
+            text-align: center;
+            //font-size: 16px;
+            font-size: 24px;
+            color: #1a91dd;
+        }
+        .login-form {
+            margin: 0 30px 30px;
+            padding-top: 10px;
+            .el-form-item {
+                position: relative;
+            }
+            input{
+                padding-left: 60px;                   
+            }
+            .ic-login {
+                position: absolute;
+                display: inline-block;
+                width: 60px;
+                height: 100%;
+                z-index: 9;
+                left: 0;
+            }
+            .code-row {
+                input {
+                    padding-right: 90px;
+                }
+                .code-btn {
+                    position: absolute;
+                    top: 0px;
+                    right: 10px;
+                    font-size: 14px;
+                    color: #10a0e8;
+                    cursor: pointer;
+                }
+            }
+            .login-btn {
+                width: 100%;
+                height: 42px;
+            }
+            .forget-btn {
+                margin-left: 0;
+            }
+        }
+    }
+}
